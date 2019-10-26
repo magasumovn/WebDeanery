@@ -15,10 +15,6 @@ public class Subject{
         return subjectID;
     }
 
-    public void setSubjectID(Long subjectID) {
-        this.subjectID = subjectID;
-    }
-
     public String getSubjectName() {
         return subjectName;
     }

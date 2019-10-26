@@ -19,10 +19,6 @@ public class Student {
         return studentID;
     }
 
-    public void setStudentID(Long studentID) {
-        this.studentID = studentID;
-    }
-
     public String getStudentName() {
         return studentName;
     }
@@ -33,9 +29,5 @@ public class Student {
 
     public Group getGroup() {
         return group;
-    }
-
-    public void setGroup(Group group) {
-        this.group = group;
     }
 }

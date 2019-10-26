@@ -15,10 +15,6 @@ public class Group {
         return groupNumber;
     }
 
-    public void setGroupNumber(Long groupNumber) {
-        this.groupNumber = groupNumber;
-    }
-
     public String getGroupName() {
         return groupName;
     }

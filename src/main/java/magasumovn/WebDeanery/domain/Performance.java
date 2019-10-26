@@ -26,24 +26,12 @@ public class Performance implements Serializable{
         return student;
     }
 
-    public void setStudent(Student student) {
-        this.student = student;
-    }
-
     public Subject getSubject() {
         return subject;
     }
 
-    public void setSubject(Subject subject) {
-        this.subject = subject;
-    }
-
     public int getSemesterNumber() {
         return semesterNumber;
-    }
-
-    public void setSemesterNumber(int semesterNumber) {
-        this.semesterNumber = semesterNumber;
     }
 
     public int getMark() {
