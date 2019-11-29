@@ -20,7 +20,6 @@ public class PerformanceController  {
     @GetMapping
     public List<Performance> list(@RequestParam(required = false, defaultValue = "") String studentID)  {
         if (!studentID.isEmpty()) {
-            //List<Performance> performances = new ArrayList<>();
             return performanceRepo.getPerformancesByStudent_StudentID(Long.parseLong(studentID));
         }
         else {
